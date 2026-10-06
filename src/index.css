@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-pink-soft: #FFEEF7;
+  --color-pink-vivid: #E91A85;
+  --color-pink-dark: #B8146A;
+  --color-green-field: #2D6A4F;
+  --color-green-light: #52B788;
+  --color-cream: #FFF8F3;
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Outfit', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #FFEEF7;
+  color: #1a1a2e;
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFEEF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #E91A85;
+  border-radius: 3px;
+}
+
+::selection {
+  background: #E91A85;
+  color: #fff;
+}
