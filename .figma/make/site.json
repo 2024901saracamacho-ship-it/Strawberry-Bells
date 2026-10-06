@@ -1,0 +1,10 @@
+{
+  "description": "This platform analyzes strawberry production data, offering actionable insights and recommendations to enhance crop yield and sustainability for farmers.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
